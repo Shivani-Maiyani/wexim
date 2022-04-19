@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="wexim.css">
+    <link rel="stylesheet" href="wexim-responsive.css">
+    <title>Wexim-Design</title>
+</head>
+<body>
+    <header class="header" id="home">
+           <nav class="nav-bar" id="navbar">
+            <div class="container">
+                    <a href="#home" title="Logo" class="logo">
+                        <img src="http://www.themesindustry.com/html/wexim-2020/images/logo-black.png" class="logo-dark" alt="logo">
+                        <img src="http://www.themesindustry.com/html/wexim-2020/images/logo-white.png" alt="logo" class="logo-light default">
+                    </a>
+                <div class="navigation" id="wexim">
+                    <div class="navbar-nav-left">
+                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#team">Team</a>
+                        <a class="nav-link left" href="#work">Work</a>
+                        <a class="nav-link right" href="#pricing">Pricing</a>
+                        <a class="nav-link" href="#app">App</a>
+                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                   <a class="menu-icon"><i class="fa fa-bars" onclick="togglemenu(window.innerWidth < 668 ? 300 :400)"></i></a>                  
+                </div>
+      
+            </div>
+           </nav>
+
+            <div class="sidebar" id="sidebar">
+                <a class="-side-menu-icon" onclick="togglemenu(0)"><i class="fa fa-close" aria-hidden="true"></i>  </a> 
+                <a class="side-nav active" href="#home" onclick="visit()">Home</a>
+                <a class="side-nav" href="#about" onclick="visit()">About</a>
+                <a class="side-nav" href="#team" onclick="visit()">Team</a>
+                <a class="side-nav" href="#work" onclick="visit()">Work</a>
+                <a class="side-nav" href="#pricing" onclick="visit()">Pricing</a>
+                <a class="side-nav" href="#app" onclick="visit()">App</a>
+                <a class="side-nav" href="#blog" onclick="visit()">Blog</a>
+                <a class="side-nav" href="#contact" onclick="visit()">Contact</a>
+
+                <ul class="list-unstyled">
+                    <li class="side-icon"><a href="#" class="side-link"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li class="side-icon"><a href="#" class="side-link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li class="side-icon"><a href="#" class="side-link"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                   
+                </ul>
+                <p class="text-white">© 2019 Wexim. Made With Love by Themesindustry</p>
+            </div>
+           <div class="classic-box">
+            <a data-fancybox="" href="https://www.youtube.com/watch?v=hpeYWdkUtcE" class="button-play"><i class="fa fa-play"></i></a>
+        <h2 class="head">Most Flexible One Page HTML5 Template</h2>
+        <p class="head-text">The integration of web fonts has always been one of the largest contributing factors to diversity in the overall look and feel of websites today vs. yesterday.</p>
+     <div class="head-btn">
+         <button class="btn1">Learn More</button>
+         <button class="btn2">Learn More</button>
+     </div>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-1">
+                    <div class="skill">
+                        <div class="title">
+                            <h6 class="title-head">ALWAYS BEHIND THE BRANDS</h6>
+                            <h2 class="title-heading">A Studio Helping Web 2.0 Gain Some Momentum.</h2>
+                            <p class="title-text">The integration of web fonts has always been one of the largest contributing factors to diversity in the overall look and feel of websites today vs. yesterday.</p>
+                        </div>
+                        <ul class="team-progress">
+                            <!--Progress Item-->
+                            <li class="pro-item">
+                                <h6 class="pro-text">Project Management <span class="float-right"><b class="count">90</b>%</span></h6>
+                                <div class="progress">
+                                    <span class="pro-bar" style="width: 90%;"></span>
+                                </div>
+                            </li>
+                            <!--Progress Item-->
+                            <li class="pro-item">
+                                <h6 class="pro-text">Web Consulting<span class="float-right"><b class="count">75</b>%</span></h6>
+                                <div class="progress">
+                                    <span class="pro-bar" style="width: 75%;"></span>
+                                </div>
+                            </li>
+                            <!--Progress Item-->
+                            <li class="pro-item">
+                                <h6 class="pro-text">Web Consulting<span class="float-right"><b class="count">75</b>%</span></h6>
+                                <div class="progress">
+                                    <span class="pro-bar" style="width: 75%;"></span>
+                                </div>
+                            </li>
+                        </ul>
+                       <button class="pro-btn">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-1">
+                    <img src="http://www.themesindustry.com/html/wexim-2020/images/half-block1.jpg" class="skill-img" alt="image">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="service-container">
+            <div class="services-col">
+            <div class="service-title">
+                <h6 class="service-head">Basic info about componay</h6>
+                <h2 class="service-heading">Our Services</h2>
+                <p class="service-text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. </p>
+            </div>
+        </div>
+     <div class="container-row">
+        <div class="service-row">
+            <div class="service-col-1">
+                <div class="feature-box">
+                    <span class="number">
+                        01.
+                    </span>
+                    <h6 class="col-head">Website Design</h6>
+                    <p class="col-text-para">Lorem ipsum dolor  amet, consectetur adipiscing elit augue diam, accumsan  ipsum dolor sit amet, consectetur adipiscing.</p>
+                </div>
+            </div>
+          <div class="service-col-1">
+                <div class="feature-box">
+                    <span class="number">
+                        02.
+                    </span>
+                    <h6 class="col-head">Website Development</h6>
+                    <p class="col-text-para">Lorem ipsum dolor  amet, consectetur adipiscing elit augue diam, accumsan  ipsum dolor sit amet, consectetur adipiscing.</p>
+                </div>
+            </div>
+            <div class="service-col-1">
+                <div class="feature-box">
+                    <span class="number">
+                        03.
+                    </span>
+                    <h6 class="col-head">Project Management</h6>
+                    <p class="col-text-para">Lorem ipsum dolor  amet, consectetur adipiscing elit augue diam, accumsan  ipsum dolor sit amet, consectetur adipiscing.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        </div>
+    </section>
+
+    <Section class="digital">
+        <!-- <div class="overlay"></div> -->
+     <div class="digital-container">
+         <div class="digital-info">
+             <h4 class="digital-head">Unleash your creative potential with Wexim</h4>
+             <h1 class="digital-heading">Looking For Exclusive Digital Services?</h1>
+             <button class="btn1">Learn More</button>
+         </div>
+     </div>
+    </Section>
+
+    <section class="creative-head" id="team">
+        <div class="creative-container">
+            <div class="creative-content">
+            <div class="services-col">
+                <div class="service-title">
+                    <h6 class="service-head">Basic info about componay</h6>
+                    <h2 class="service-heading">Creative Heads</h2>
+                    <p class="service-text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. </p>
+                </div>
+            </div>
+        </div>
+
+            <div class="create-item">
+                <div class="sub-item">
+                    <div class="col-items block">
+                        <div class="row-item">
+                            <div class="item-img">
+                                <img  class="img-itmes" src="http://www.themesindustry.com/html/wexim-2020/images/team-img7.jpg" alt="">
+                            </div>
+                            <div class="item-text left--0 top--0">
+                                    <div class="text-content">
+                                                <h4 class="content-head hover-effect">Alex Walkin</h4>
+                                                <p class="gradient-text1 hover-effect">Developer</p>
+                                                <p class="content-text hover-effect">Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+                                                <!--Team Social-->
+                                                <div class="team-two-social hover-effect">
+                                                  <li><a class="facebook-text-hvr content-icon" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                   <li><a class="twitter-text-hvr content-icon" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                   <li><a class="pinterest-text-hvr content-icon" href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                                   <li><a class="instagram-text-hvr content-icon" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                </div>
+                                            </div>
+                            </div>
+
+                        </div>
+
+                         <div class="row-item item2">
+                          
+                            <div class="item-text right--0 top--0">
+                                <div class="text-content">
+                                                <h4 class="content-head hover-effect">Alex Walkin</h4>
+                                                <p class="gradient-text1 hover-effect">Developer</p>
+                                                <p class="content-text hover-effect">Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+                                                <div class="team-two-social hover-effect">
+                                                   <li><a class="facebook-text-hvr content-icon" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                   <li><a class="twitter-text-hvr content-icon" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                   <li><a class="pinterest-text-hvr content-icon" href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                                   <li><a class="instagram-text-hvr content-icon" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                </div>
+                                            </div>
+                            </div>
+
+                            <div class="item-img">
+                                <img  class="img-itmes second-img" src="http://www.themesindustry.com/html/wexim-2020/images/team-img5.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+                     <div class="col-item hide"> 
+                        <div class="row-item">
+                            <div class="item-img">
+                                <img  class="img-itmes" src="http://www.themesindustry.com/html/wexim-2020/images/team-img6.jpg" alt="">
+                            </div>
+                            <div class="item-text left--0">
+                                <div class="text-content">
+                                                <h4 class="content-head hover-effect">Alex Walkin</h4>
+                                                <p class="gradient-text1 hover-effect">Developer</p>
+                                                <p class="content-text hover-effect">Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+                                            
+                                                <div class="team-two-social hover-effect">
+                                                   <li><a class="facebook-text-hvr content-icon" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                   <li><a class="twitter-text-hvr content-icon" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                 <li><a class="pinterest-text-hvr content-icon" href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                                   <li><a class="instagram-text-hvr content-icon" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                </div>
+                                            </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row-item">
+                          
+                            <div class="item-text right--0">
+                                <div class="text-content">
+                                                <h4 class="content-head hover-effect">Alex Walkin</h4>
+                                                <p class="gradient-text1 hover-effect">Developer</p>
+                                                <p class="content-text hover-effect">Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus.</p>
+                            
+                                                <div class="team-two-social hover-effect">
+                                                   <li><a class="facebook-text-hvr content-icon" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                   <li><a class="twitter-text-hvr content-icon" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                    <li><a class="pinterest-text-hvr content-icon" href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                                                   <li><a class="instagram-text-hvr content-icon" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                </div>
+                                            </div>
+                            </div>
+
+                            <div class="item-img">
+                                <img  class="img-itmes second-img" src="http://www.themesindustry.com/html/wexim-2020/images/team-img4.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="portfolio" id="work">
+        <div class="portfolio-container">
+                <div class="portfolio-wrraper">
+                    <div class="portfolio-left">
+                    <div class="cbp-item itemshadow">
+                        <div class="cbp-item-wrapper">
+                        <img  class="pro-img" src="http://www.themesindustry.com/html/wexim-2020/images/portfolio-1.jpg" alt="image">
+                        <div class="overlay-two">
+                            <div class="plus"></div>
+                            <h4 class="overlay-pro">Latest Work</h4>
+                            <p>See Our Amazing Work</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cbp-item">
+                    <div class="cbp-item-wrapper">
+                    <img class="pro-img"src="http://www.themesindustry.com/html/wexim-2020/images/portfolio-3.jpg" alt="">
+                    <div class="overlay-two center-block text-white">
+                        <div class="plus"></div>
+                        <h4 class="pt-3">Latest Work</h4>
+                        <p>See Our Amazing Work</p>
+                    </div>
+                </div></div>
+
+                <div class="cbp-item">
+                    <div class="cbp-item-wrapper port-left">
+                    <div class="bottom-text">
+                        <div class="cells" data-wow-delay="350ms" style="visibility: visible; animation-delay: 350ms; animation-name: fadeIn;">
+                            <p class="profile-text">We’ve Completed More Than </p>
+                            <h2 class="port_head alt-font third-color">682</h2>
+                            <p>projects for our amazing clients,</p>
+                        </div>
+                        <div class="cells wow fadeIn" data-wow-delay="350ms" style="visibility: visible; animation-delay: 350ms; animation-name: fadeIn;">
+                            <button class="price-btn gradient-color pro-btn">View More</button>
+                        </div>
+                    </div>
+                </div></div>
+            </div>
+            <div class="portfolio-right">
+                <div class="cbp-item">
+                    <div class="cbp-item-wrapper">
+                    <div class="text_wrap">
+                        <div class="profile">
+                            <h6 class="pro-head">Basic info about componay</h6>
+                            <h2 class="service-heading">Creative Portfolio</h2>
+                            <p class="pro-text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cbp-item ">
+                <div class="cbp-item-wrapper">
+                <img class="pro-img" src="http://www.themesindustry.com/html/wexim-2020/images/portfolio-2.jpg" alt="">
+                <div class="overlay-two center-block text-white">
+                    <div class="plus"></div>
+                    <h4 class="pt-3">Latest Work</h4>
+                    <p>See Our Amazing Work</p>
+                </div>
+            </div></div>
+
+            <div class="cbp-item">
+                <div class="cbp-item-wrapper">
+                <img class="pro-img" src="http://www.themesindustry.com/html/wexim-2020/images/portfolio-4.jpg" alt="">
+                <div class="overlay-two center-block text-white">
+                    <div class="plus"></div>
+                    <h4 class="pt-3">Latest Work</h4>
+                    <p>See Our Amazing Work</p>
+                </div>
+            </div></div>
+        </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <Section class="price" id="pricing">
+        <div class="price-container">
+                <div class="services-col">
+                        <h6 class="service-head">Most flexible pricing</h6>
+                        <h2 class="service-heading">Easy Pricing</h2>
+                        <p class="service-text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. </p>
+                </div>
+
+                <div class="price-item-container">
+                <div class="row-price">
+                    <div class="col-price">
+                        <div class="price-items">
+                                <h3 class="price-head">Starter Plan</h3>
+                                <p class="price-text">If you are a small business and you are interested in small rebranding then this is a perfect plan for you</p>
+                                <div class="pricing">
+                                    
+                                    <h3 class="currency"><span class="sign">$</span>29.99<sub class="month">MONTH</sub></h3>
+                                </div>
+                                <ul class="packages">
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Full access</li>
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Unlimited Bandwidth</li>
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Unlimited Bandwidth</li>
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Powerful Admin Panel</li>
+                                    <li><i class="fa fa-times" aria-hidden="true"></i>Email Accounts</li>
+                                    <li><i class="fa fa-times" aria-hidden="true"></i>Email Accounts</li>
+                                    <li><i class="fa fa-times" aria-hidden="true"></i>8 Free Forks Every Months</li>
+                                </ul>
+            
+                                <button class="price-btn">Get Started</button>                       
+                        </div>
+                    </div>
+
+                    <div class="col-price">
+                        <div class="price-items gradient-hover">
+                                <h3 class="price-head">Business Plan</h3>
+                                <p class="price-text">If you are a small business and you are interested in small rebranding then this is a perfect plan for you</p>
+                                <div class="pricing">
+                                    
+                                    <h3 class="gradient"><span class="sign">$</span>29.99<sub class="month">MONTH</sub></h3>
+                                </div>
+                                <ul class="packages">
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Full access</li>
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Unlimited Bandwidth</li>
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Unlimited Bandwidth</li>
+                                    <li><i class="fa fa-check" aria-hidden="true"></i>Powerful Admin Panel</li>
+                                    <li><i class="fa fa-times" aria-hidden="true"></i>Email Accounts</li>
+                                    <li><i class="fa fa-times" aria-hidden="true"></i>Email Accounts</li>
+                                    <li><i class="fa fa-times" aria-hidden="true"></i>8 Free Forks Every Months</li>
+                                </ul>
+            
+                                <button class="price-btn gradient-color">Get Started</button>                       
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+    </Section>
+
+    <section class="counting">
+            <div class="counting-row">
+                <div class="counting-col">
+                    <div class="col-wrapper">
+                    <i class="fa fa-quote-right testimonial-icon gradient-text1"></i>
+                    <p class="counting-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae egestas mi, vel dapibus diam. Mauris malesuada, nisl non rutrum commodo, sem magna laoreet tellus, eu euismod dolor enim et mi. In at tempor purus. Nunc aliquet lacus vel posuere volutpat. Fusce ultrices sollicitudin nisl nec elementum. </p>
+
+                   
+                    <div class="testimonial-image">
+                        <img class="counting-img" src="http://www.themesindustry.com/html/wexim-2020/images/testimonial-img1.jpg" alt="image">
+                    </div>
+                    <h5 class="counting-head">Sara WIlliamson</h5>
+                    <span class="destination">Project Manager, The Company Inc.</span>
+                    </div>  
+                </div>
+
+                 <div class="counting-col2">
+                     <div class="bg-overlay"></div>
+                     <div class="counter-row">
+                    
+                        <div class="counter-item">
+                            <div class="count-digit">69</div>
+                            <h6 class="counter-text">Award Won</h6>
+                        </div>
+            
+                        <div class="counter-item">
+                            <div class="count-digit">780</div>
+                            <h6 class="counter-text">Employees</h6>
+                        </div>
+                
+                        <div class="counter-item">
+                            <div class="count-digit">456</div>
+                            <h6 class="counter-text">Happy Clients</h6>
+                        </div>
+                    
+                        <div class="counter-item">
+                            <div class="count-digit">599</div>
+                            <h6 class="counter-text">Finished Projects</h6>
+                        </div> 
+                    </div>
+                     
+                </div>
+
+            </div>
+       
+    </section>
+
+    <section class="app" id="app">
+        <div class="app-container">
+            <div class="service-title app-title">
+                <h6 class="service-head">Most reliable application</h6>
+                <h2 class="service-heading">Mobile App Design</h2>
+                <p class="service-text">Curabitur mollis bibendum luctus. Duis suscipit vitae dui sed suscipit. Vestibulum auctor nunc vitae diam eleifend, in maximus metus sollicitudin. Quisque vitae sodales lectus. Nam porttitor justo sed mi finibus, vel tristique risus faucibus. </p>
+            </div>
+            <div class="app-row-container">
+            <div class="app-row">
+                <div class="app-col">
+                    <div class="app-feature">
+                        <i class="fa fa-diamond gradient-text1" aria-hidden="true"></i>
+                        <h4 class="app-head">Theme Options</h4>
+                        <p class="app-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit Suspendisse in orci enim gravida nibh.</p>
+                    </div>
+
+                    <div class="app-feature">
+                        <i class="fa fa-edit gradient-text1" aria-hidden="true"></i>
+                        <h4 class="app-head">Customization</h4>
+                        <p class="app-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit Suspendisse in orci enim gravida nibh.</p>
+                    </div>
+                </div>
+                <div class="app-col">
+                    <div class="app-image">
+                        <img class="app-img" src="http://www.themesindustry.com/html/wexim-2020/images/iphone-img.png" alt="image">
+                        <div class="app-item">
+                            <img  src="http://www.themesindustry.com/html/wexim-2020/images/iphone-slide2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="app-col">
+                    <div class="app-feature">
+                        <i class="fa fa-code gradient-text1" aria-hidden="true"></i>
+                        <h4 class="app-head">Powerful Code</h4>
+                        <p class="app-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit Suspendisse in orci enim gravida nibh.</p>
+                    </div>
+
+                    <div class="app-feature">
+                        <i class="fa fa-folder-open-o gradient-text1" aria-hidden="true"></i>
+                        <h4 class="app-head">Documentation</h4>
+                        <p class="app-text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit Suspendisse in orci enim gravida nibh.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="blog" id="blog">
+            <div class="blog-container">
+                <div class="blog-row">
+                    <div class="blog-col">
+                        <div class="blog-content">
+                                <h6 class="blog-head">January 14, 2019</h6>
+                                <h2 class="blog-heading">Living Your Dreams</h2>
+                                <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodt temp to the incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis a nostr a exercitation ullamco laboris nisi ut aliquip.</p>
+                                <button class="price-btn gradient-color blog-btn">Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="blog-col2">
+                        <div class="blog-image">
+                            <img class="blog-img" src="http://www.themesindustry.com/html/wexim-2020/images/blog-half1.jpg" alt="image">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+            <div class="contact-row">
+                <div class="contact-col">
+                    <div class="bg-overlay"></div>
+                    <div class="address-text">
+                        <h6 class="cont-head">Lorem ipsum dolor sit amet consectetur</h6>
+                        <h2 class="cont-heading">Wexim Agency, Newyork</h2>
+                        <p class="cont-text">123 Stree New York City , United States Of America. </p>
+                        <p class="cont-text cont">Office Telephone : 001 01085379709<br>
+                            <p class="cont-text">Mobile : 001 63165370895 </p>
+                        <p class="cont-text cont">mail : admin@website.com<br>
+                            <p class="cont-text">Inquiries : email@website.com</p>
+                        <div class="address-social">
+                            <ul class="list-unstyled">
+                                <li><a class="facebook-text-hvr"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a class="twitter-text-hvr"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a class="google-text-hvr"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a class="linkedin-text-hvr"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                <li><a class="instagram-text-hvr"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="contact-col2">
+                        <form class="contact-form">
+                            <div class="contact-form-row">
+                                <div class="contcat-form-col">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="First Name:" required="" id="first_name" name="first_name">
+                                    </div>
+                                </div>
+                                <div class="contcat-form-col">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" placeholder="Last Name:" required="" id="last_name" name="last_name">
+                                    </div>
+                                </div>
+                             </div>
+                             <div class="contact-form-row">
+                                <div class="contcat-form-col">
+                                    <div class="form-group">
+                                        <input class="form-control" type="email" placeholder="Email:" required="" id="email" name="email">
+                                    </div>
+                                </div>
+                                <div class="contcat-form-col">
+                                    <div class="form-group">
+                                        <input class="form-control" type="tel" placeholder="Phone:" id="phone" name="phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-form-row">
+                                <div class="contcat-form-col">
+                                    <div class="form-group">
+                                        <textarea class="form-control" placeholder="Message:" id="message" name="message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="contact-form-col">
+                                    <button type="submit" class="price-btn gradient-color blog-btn cont-btn" id="submit_btn">Contact Now</button>
+                                </div>
+                            
+                        </form>
+                </div>
+            </div>
+            <div class="contact-form-row">
+                <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14683.004169683323!2d72.53231360000001!3d23.0695871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e834bfa9b0ba3%3A0x3be8e1cdf601399!2sRenaissance%20Ahmedabad%20Hotel!5e0!3m2!1sen!2sin!4v1648013171319!5m2!1sen!2sin"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <div class="footer-social">
+                        <ul class="footer-social-list list-unstyled">
+                            <li><a class="wow" href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a class="wow" href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a class="wow" href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li><a class="wow" href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a class="wow" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a class="wow" href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <p class="company-about fadeIn">© 2019 Wexim. Made With Love By <a href="javascript:void(0);">Themesindustry</a></p>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <a class="scroll-top-arrow" id="scroll-arrow" href="javascript:void(0);" style="display: inline;" onclick="topFunction()"><i class="fa fa-angle-up"></i></a>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

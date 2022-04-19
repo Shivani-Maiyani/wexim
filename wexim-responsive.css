@@ -1,0 +1,501 @@
+@media screen and (min-width:1600px){
+    .services-col{
+        max-width:1400px;
+        margin: 0 auto;
+
+    }
+    .service-container{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .container-row{
+        max-width:1400px;
+    }
+    .create-container{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .create-item{
+        max-width:1400px;
+        margin: 0 auto;
+    }
+    .creative-content{
+        width:50%;
+        margin: 0 auto;
+    }
+    .price-item-container{
+        max-width: 1400px;
+        margin: 60px auto;
+    }
+    .counter-row{
+        max-width: 1400px;
+        margin: 60px auto;
+        padding: 120px 200px;
+    }
+    .app-row-container{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+    .blog-content{
+        padding: 120px 0;
+    }
+    .portfolio-container{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1400px) and (min-width:1200px){
+    .nav-link{
+        margin: 0px;
+    }
+    .nav-link.right{
+        padding-left: 0px;
+    }
+    .counter-row{
+          padding: 120px 158px;
+    }
+    .price-item-container{
+        padding: 0 20px;
+    }
+    
+}
+@media screen and (max-width:1200px) and (min-width:1000px){
+    .nav-link{
+        margin: 0px;
+    }
+    .nav-link.right{
+        padding-left: 0px;
+    }
+    .skill{
+        padding: 0 20px;
+    }
+    .col-1{
+        padding: 0px;
+    }
+    .counter-row{
+        padding: 120px 70px;
+    }
+    .price-item-container
+    {
+        padding: 0 20px;
+    }
+
+    
+}
+@media screen and (max-width:1199px){
+    .nav-link.right{ 
+        padding-left: 120px;
+    }
+    .nav-link.left{
+        padding-right: 120px;
+    }
+    .container-row{
+        padding: 0px;
+    }
+    .price-item-container{
+        padding: 0px;
+    }
+    .app-row-container{
+        padding: 0;
+    }
+    
+
+}
+@media screen and (max-width:1199px) and (min-width:1000px){
+    .skill{
+       padding: 0px 20px;
+   }
+   .skill-img{
+       height: 800px;
+   }
+}
+@media screen and (max-width:1000px){
+    .header{
+        width:100%;
+    }
+    .head{
+        padding: 0 30px;
+    }
+    .head-text{
+        padding: 0 30px;
+    }
+    .head-btn{
+        padding: 0 20px;
+    }
+    .navigation{
+		position: absolute;
+		top: 50px;
+        left: 0px;
+        text-align: left;
+        width: 100%;
+		transition: 0.10s;
+	}
+    .logo{
+        left:20%;
+       
+    }
+    .logo-light .default{
+        padding-right: 600px;
+    }
+    .navbar .menu-icon{
+        bottom: 25px;
+        right: 10%;
+    }
+	.nav-link{
+            display: none;
+            visibility: hidden;
+            height: 100%;
+            width: 170px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            background-color: #00bcd4;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+	}
+    .row{
+        display: block;
+    }
+    .skill{
+        padding: 100px 0;
+        max-width: 720px;
+        margin: 0 auto;
+    }
+   .container-fluid{
+        padding: 0px;
+    }
+   .col-1{
+       padding: 0px;
+   }
+   .skill-img{
+       width:100%;
+   }
+   .container-row{
+       padding: 0px;
+   }
+   .service-text{
+       width: 80%;
+   }
+   .app-image{
+    width:180px;
+}
+.app-item > img{
+    height: 270px;
+    width:155px;
+}
+.blog-row{
+    display: block;
+}
+.blog-col{
+    padding: 0px;
+}
+  
+.portfolio-container{
+    padding: 0px;
+}
+.portfolio-wrraper{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.pro-img
+ {
+    width:80%;
+    margin: 0 auto;
+}
+.overlay-two{
+    left:76px;
+    width:80%;
+    height: 95%;
+}
+.port-left{
+    margin: 0 auto;
+}
+.portfolio-right{
+    padding-left: 0px;
+
+}
+.text_wrap{
+    width:50%;
+    margin: 0 auto;
+}
+.port-left{
+    display: flex;
+    justify-content: center;
+}
+.port-head{
+    font-size: 50px;
+}
+} 
+@media screen and (max-width:1000px) and (min-width:760px){
+
+    .counter-row{
+        padding: 120px 30px;
+  }
+  .app-row-container{
+    padding: 0px;
+}
+
+}
+@media screen and (max-width:990px) and (min-width:668px){
+    .price-item-container{
+        padding: 0 30px;
+        margin-top: 50px;
+    }
+
+}
+@media screen and (max-width:900px) and (min-width:800px){
+    .overlay-two{
+        left:67px;
+        width:80%;
+        height: 95%;
+
+    }
+
+}
+@media screen and (max-width:990px){
+    .hide{
+        display: none;
+    }
+    .item-text{
+        padding-top: 50px;
+    }
+    .create-item{
+     padding: 0px 80px;
+ }
+ .row-price{
+     display: block;
+ }
+ .price-items{
+     text-align: center;
+ }
+ .col-price{
+     max-width: 100%;
+     margin-bottom: 30px;
+     padding: 0px;
+ }
+ }
+@media screen and (max-width:760px){
+    .service-row{
+           display: block;
+       }
+       .col-text-para{
+          max-width: 80%;
+          margin: 30px auto;
+       }
+       .services{
+           padding: 72px 0px;
+       }
+       .counting-row{
+           display: block;
+          
+       }
+       .counting-col{
+           padding: 0px;
+       }
+       .app-row{
+           display: block;
+       }
+       .app-col{
+           padding: 0px;
+           margin-bottom: 40px;
+       }
+       .service-title{
+           margin-bottom: 60px;
+       } 
+       .contact-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contact-col{
+        width:100%;
+    }
+    .contact-col2{
+        width:100%;
+    }
+    .list-unstyled{
+        margin-left: 20px;
+    }
+
+    }
+@media screen and (min-width:668px) and (max-width:800px){
+    .skill{
+        text-align: center;
+        padding: 100px 30px;
+    }
+    .team-progress{
+        padding: 0 30px;
+    }
+
+    .overlay-two{
+        left:54px;
+        width:80%;
+        height: 94%;
+    }
+}
+@media screen and (max-width:760px) and (min-width:425px){
+    .counter-row{
+        width:100%;
+        max-width: 100%;
+        margin: 20px auto;
+        padding: 50px 100px;
+    }
+    .app-row-container{
+        padding: 0 50px;
+    }
+}
+@media screen and (max-width:668px){
+    .head-text{
+        padding: 0 20px;
+    }
+    .head{
+        font-size:40px;
+        padding: 0 20px;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .fa-close{
+        margin-left: 250px;
+    }
+    .title{
+        padding: 0 30px;
+    }
+    .skill{
+        text-align: center;
+        padding: 100px 30px;
+      }
+    .team-progress{
+      padding: 0 20px;
+     }
+     .price-item-container{
+         padding: 0px;
+         margin-top: 40px;
+     }
+     .overlay-two{
+        left:37px;
+        width:80%;
+        height:93%;
+    }
+ 
+   
+}
+@media screen and (max-width:550px) and (min-width:425px){
+    .counter-row{
+        padding: 50px;
+    }
+    .overlay-two{
+        left:23px;
+        width:80%;
+        height: 90%;
+    }
+
+
+}
+@media screen and (max-width:420px){
+    .overlay-two{
+        left:20px;
+        width:80%;
+        height: 89%;
+    }
+}
+@media screen and (max-width:370px){
+    .overlay-two{
+        left:10px;
+        width:80%;
+        height: 88%;
+    }
+}
+@media screen and (max-width:578px){
+    .block{
+        disply: block;
+    }
+    .row-item{
+        display: block;
+    }
+    .item2{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .item-img{
+        width:100%;
+        display: flex;
+    }
+    .item-text{
+        padding-top: 30px;
+        display: flex;
+        width:100%;
+        text-align: center;
+    }
+
+    .create-item{
+        padding: 0px 20px;
+    }
+    .creative-head{
+        padding: 80px 0;
+    }
+    .team-two-social{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+    .content-text{
+        margin-bottom: 20px;
+    }
+    .item-text::after{
+        height: 0%;
+        width: 100%;
+    }
+    .top--0::after{
+       height: 0%; 
+    }
+    .row-item:hover .item-text::after{
+        height: 100%;
+    }
+    .app-row-container{
+        padding: 0px;
+    }
+    .contact-form-row{
+        display: block;
+    }
+    .contcat-form-col{
+        width:90%;
+        padding:0 10px;
+    }
+    .text_wrap{
+        width:80%;
+    }
+ 
+}
+@media screen and (max-width:450px){
+    .service-text{
+        width: 98%;
+    }
+    .counter-row{
+        margin: 20px auto;
+        width:100%;
+        max-width: 100%;
+        padding: 25px;
+    }
+    .app-image{
+        width:180px;
+    }
+    .app-item > img{
+        height: 270px;
+        width:155px;
+    }
+    .list-unstyled{
+        margin-left: 0px;
+    }
+    .pro-btn
+    {
+        width:122px;
+    }
+}
+
+
+
+
+
+
